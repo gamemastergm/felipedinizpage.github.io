@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#petala {
+    position: fixed;
+    z-index: 1;
+    margin-right: 0;
+}
+
+a {
+    color: inherit;
+}
+h1{
+    color:#FF839A;
+}
+
+.container{
+    height: calc(100vh - 180px);
+    width: 100%;
+}
+
+.background {
+    z-index: -1;
+    margin-top: -50px;
+    width: 100%;
+    background-image: url(foto.png);
+    background-position: unset;
+    height: calc(100vh - 160px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+.div1, .div2 {
+    width: 35%;
+    padding-top: 5%;
+    z-index: 2;
+}
+
+.aboutME, .obj, .aormAcd, .habl {
+    width: calc(60% - -50px);
+    margin: 30px 0 0 50px;
+    color: white;
+    background-color: rgba(192, 192, 192, 0.363);
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.6);
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.aboutME:hover, .obj:hover, .aormAcd:hover, .habl:hover {
+    box-shadow:  0 0 1em rgba(0, 0, 0, 1);
+    background-color: rgba(192, 192, 192, 0.7);
+    color: #F33E2F;
+    padding: 15px 35px;
+}
+.container h1 {
+    text-align: center;
+    height: 50px;
+}
+
+.background h2 {
+    text-align: center;
+}
+
+.habl, .obj {
+    margin-top: 60px;
+}
+.AUDIO{
+    margin-top: 50px;
+}
+footer {
+    background-color: white;
+    z-index: 2;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
