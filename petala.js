@@ -6,7 +6,7 @@ let arr = [];
 function insert() {
     let petala = document.createElement('img');
     petala.setAttribute( 'id' ,'petala') 
-    petala.setAttribute( 'src' ,'sakura leeder.png')
+    petala.setAttribute( 'src' ,'petala4.png')
     
     let rand = 0.25+Math.random()/3;
 
